@@ -1,3 +1,12 @@
+# Dreamhost / virtualenv / non committed django stuff
+bin/
+db.sqlite3
+lib64
+pip-selfcheck.json
+public/
+tmp/
+pyvenv.cfg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
