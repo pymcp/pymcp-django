@@ -1,4 +1,7 @@
 import sys, os
+# Force local install of postgresql
+os.environ['LD_LIBRARY_PATH'] = '/home/pymcp/pgsql/9.5/lib'
+
 INTERP = os.path.join(os.environ['HOME'], 'django_env', 'bin', 'python')
 if sys.executable != INTERP:
     os.execl(INTERP, INTERP, *sys.argv)
